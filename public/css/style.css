@@ -1,0 +1,41 @@
+p {
+  margin: 10px 0 !important;
+}
+
+.login-container {
+  width: 400px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.fa-book-reader {
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+}
+
+.mystyle {
+  transform: translate(10px, 10px);
+  transition: linear 0.2s;
+}
+
+.blacky {
+  background-color: rgba(0, 0, 0, 0.664);
+  width: 99vw;
+  height: 100vh;
+  z-index: 120;
+  transition: 5s linear;
+  opacity: 0;
+}
+
+.fa-small{
+  font-size: 16px !important;
+}
+
+.btn-float {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-small {
+  width: 180px;
+}
