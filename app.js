@@ -80,7 +80,7 @@ app.set('view engine', '.hbs');
 app.use(passport.initialize());
 app.use(passport.session());
 
-// Set global var
+// Set global var ignore
 app.use((req, res, next) => {
   res.locals.user = req.user || null;
   next();
